@@ -3,7 +3,7 @@ import 'dart:math';
 extension ParseDecimal on String {
   num toDec() {
     String filtred = '';
-    split("").reversed.forEach((element) {
+    split('').reversed.forEach((element) {
       if (element == '0' || element == '1') filtred += element;
     });
     num value = 0;
