@@ -1,4 +1,4 @@
-extension OccurrenceMap on List<String> {
+extension OccurrenceMap on Iterable<String> {
   Map<String, int>? getOccurrencesMap() {
     var ret = <String, int>{};
     forEach((element) {
